@@ -1,0 +1,35 @@
+{
+  "name": "bankroll-hoh",
+  "version": "0.0.1",
+  "description": "Logic Gamebank",
+  "main": "src/app.js",
+  "type": "module",
+  "bin": {
+    "bankroll-cli": "src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtg1986/bankroll-hoh.git"
+  },
+  "author": "Cocoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wtg1986/bankroll-hoh/issues"
+  },
+  "homepage": "https://github.com/wtg1986/bankroll-hoh#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.4"
+  },
+  "dependencies": {
+    "@types/uuid": "^9.0.1",
+    "boxen": "^7.0.2",
+    "bull": "^4.10.4",
+    "chalk": "^5.2.0",
+    "redis": "^4.6.5",
+    "uuid": "^9.0.0",
+    "yargs": "^17.7.1"
+  }
+}
